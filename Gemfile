@@ -54,6 +54,8 @@ end
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
+
+#Added during the course 
 gem 'friendly_id', '~> 5.1.0'
 gem 'devise', '~> 4.4', '>= 4.4.3'
 gem 'bootstrap', '~> 4.1.3'
@@ -62,3 +64,4 @@ gem 'jquery-rails', '~> 4.3', '>= 4.3.3'
 gem 'rails-ujs', '~> 0.1.0'
 
 gem 'portfolio_CPRGTH' , git: "https://github.com/rluque8/portfolio_CPRGTH"
+gem 'petergate', '~> 1.8', '>= 1.8.1'
