@@ -15,4 +15,7 @@ module ApplicationHelper
       content_tag(:p, greeting, class: "source-greeting")
     end
   end
+  def copyright_generator
+    @copyright = PortfolioCPRGTH::Renderer.copyright 'Rodrigo Luque', 'All rights reserved'
+  end
 end

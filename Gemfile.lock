@@ -1,3 +1,9 @@
+GIT
+  remote: https://github.com/rluque8/portfolio_CPRGTH
+  revision: 1fca669d629cc4d75d6b9357b5cf21fa3413f819
+  specs:
+    portfolio_CPRGTH (0.1.0)
+
 GEM
   remote: https://rubygems.org/
   specs:
@@ -213,6 +219,7 @@ DEPENDENCIES
   jquery-rails (~> 4.3, >= 4.3.3)
   listen (>= 3.0.5, < 3.2)
   pg (>= 0.18, < 2.0)
+  portfolio_CPRGTH!
   pry-byebug
   puma (~> 3.11)
   rails (~> 5.2.0)
